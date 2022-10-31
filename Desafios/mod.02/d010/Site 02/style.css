@@ -1,0 +1,182 @@
+/* Criado por Luan Furlan */
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* { box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    height: 300vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#principalsquare {
+    display: inline-flexbox;
+    min-height: 80px;
+    width: 100%;
+    background-color: rgb(54, 54, 54);
+    padding: 1px;
+    border-bottom: 10px solid rgb(255, 102, 0);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.425);
+}
+
+.logo {
+    display: block;
+    text-align: center;
+    margin-top: -08px;
+    max-width: 60px;
+    max-height: 60px;
+}
+
+.logo:hover {
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px #000;
+}
+
+/*Start Menu*/
+
+nav {
+    margin: -63px 0px 0px 70px;
+}
+
+nav > .link01, .link02, .link03{ 
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.link01 {
+    margin: 0px 40px 0px 0px;
+    padding: 3px 10px 0px 0px;
+}
+
+.link02 {
+    margin: 0px 40px 0px 0px;
+    padding: 3px 10px 0px 0px;
+}
+
+.link03 {
+    padding: 3px 10px 0px 0px;
+}
+
+.link01:hover {
+    background-color:rgb(243, 97, 0);
+    border-radius: 5px;
+    text-decoration-color: #fff;
+}
+
+.link02:hover {
+    background-color:rgb(243, 97, 0);
+    border-radius: 5px;
+    text-decoration-color: #fff;
+}
+
+.link03:hover {
+    background-color:rgb(243, 97, 0);
+    border-radius: 5px;
+    text-decoration-color: #fff;
+}
+
+.link01::before {
+    content: 'I '; color: rgb(243, 97, 0);
+}
+
+.link02::before {
+    content: 'I '; color: rgb(243, 97, 0);
+}
+
+.link03::before {
+    content: 'I '; color: rgb(243, 97, 0);
+}
+
+/*End Menu*/
+
+/*main*/
+
+.anunce {
+    margin-top: -29px;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(253, 93, 0);
+    background: url(https://wallpaperaccess.com/full/7445.jpg) fixed center no-repeat;
+}
+
+.anuncefund {
+    margin-top: -29px;
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.596);
+}
+
+main, body {
+    justify-items: center;
+    background-color: rgb(68, 68, 68);
+    margin: auto;
+}
+
+main {
+    max-width: 1300px;
+}
+
+article {
+    position: absolute;
+    top: 150px;
+    background-color: #fff;
+    text-align: justify;
+    
+}
+
+.boxtitle {
+    position: relative;
+    border-radius:20px 20px 0px 0px;
+    top: -100px;
+    background-color: rgb(253, 80, 0);
+    width: auto;
+    height: 190px;
+    margin:0px;
+    
+}
+
+.boxtitle > h1 {
+    padding: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+.boxgame {
+    position: absolute;
+    top: -60px;
+    right: -50px;
+    width: 100px;
+    height: 180px;
+    background-color: rgb(153, 43, 0);
+}
+
+
+
+footer {
+    width: 100%;
+    bottom: 0px;
+    position: fixed;
+    background-color:rgb(253, 80, 0);
+    color: #fff;
+    height: 24px;
+    text-align: center;
+}
+
+footer > p {
+    font-size: 10px;
+}
+
+p {
+    padding: 13px;
+    text-indent: 15px;
+}

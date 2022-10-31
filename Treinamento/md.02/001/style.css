@@ -1,0 +1,85 @@
+@charset "UTC-8";
+
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    display: inline-block;
+}
+
+/* COLUNA 01 */
+.group01 {
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+.quadrado02 {
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    margin-bottom: -20px;
+}
+.quadrado03 {
+    background-color: black;
+    width: 50px;
+    height: 50px;
+}
+.quadrado04 { 
+    background-color: black;
+    width: 50px;
+    height: 50px;
+}
+.group01:hover {
+    background-color: yellowgreen;
+}
+.group01 > .quadrado02 {
+    display: none;
+}
+.group01 > .quadrado03 { 
+    display: none; 
+}
+.group01 > .quadrado04 { 
+    display: none; 
+}
+.group01:hover > .quadrado02 {  
+    background-color: blue;
+    display: inline-block;
+    margin-top: 50px;
+}
+.group01:hover > .quadrado03 { 
+    display: block;
+    background-color: blueviolet;
+    margin-bottom: -20px;
+}
+.group01:hover > .quadrado04 {
+    display: block;
+    background-color: darkslategray;
+}
+
+/* COLUNA 02 */
+
+.group02 {
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+.quad01 {
+    background-color: black;
+    width: 50px;
+    height: 50px;
+}
+
+.group02:hover {
+    background-color: aqua;
+}
+.group02 > .quad01 {
+    display: none;
+}
+.group02:hover > .quad01 {
+    display: block;
+    background-color: blue;
+    margin-top: 50px;
+}
