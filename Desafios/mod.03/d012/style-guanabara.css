@@ -8,14 +8,15 @@
 }
 
 :root {
-    --font01: ;
-    --font02: ;
-    --font03: ;
+    --font01: Verdana, Geneva, Tahoma, sans-serif;
+    --font02: 'Passion One', cursive;
+    --font03: 'Sriracha', cursive;
 }
 
 html, body {
     background: darkgrey;
     min-height: 100vh;
+    font-family: var(--font01);
 }
 
 header {
@@ -27,6 +28,7 @@ header {
 header > h1 { 
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--font02);
 }
 
 header > p {
@@ -46,6 +48,7 @@ a:hover {
 section {
     padding: 10vh 0vh 10vh 30px;
     line-height: 2em;
+    font-family: var(--font03);
 }
 
 section.normal {
